@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Squared Calculator</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+
+        <script src="sketch.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <audio src="g.mp3" id = "enter"></audio>
+        <audio src="d.mp3" id = "clear"></audio>
+        <center>
+            <h1 class = 'header'>
+                🧮The Squared-Calculator🧮
+            </h1>
+            <p>Note: This Calculator is specially made for squaring a number!</p>
+            <div id = "div">
+                <button class = "btn-grad" id = "button" onclick = "btn7();"> 7</button>
+
+                <button class = "number" id = "button" onclick = "btn8();"> 8</button>
+
+                <button class = "btn-grad" id = "button" onclick = "btn9();"> 9</button>
+            </div>
+
+            <div id = "div">
+                <button class = "number" id = "button" onclick = "btn4();"> 4</button>
+            
+                <button class = "btn-grad" id = "button" onclick = "btn5();"> 5</button>
+
+                <button class = "number" id = "button" onclick = "btn6();"> 6</button>
+            </div>
+
+            <div id = "div">
+                <button class = "btn-grad" id = "button" onclick = "btn1();"> 1</button>
+
+                <button class = "number" id = "button" onclick = "btn2();"> 2</button>
+
+                <button class = "btn-grad" id = "button" onclick = "btn3();"> 3</button>
+            </div>            
+            <br>
+            <br>
+            <div id = "div">
+                <button class = "btn-grad" id = "button" onclick = "btn0();"> 0</button>
+                <button class = "btn-grad3" id = "button" onclick = "cl();"> 🆑</button>
+                <button class = "btn-grad" id = "button" onclick = "enter();"> ➡️</button>
+            </div>
+            <div id = "div">
+                <textarea class = "form-control" id = "textbox"></textarea>
+            </div>
+        </center>
+    </body>
+</html>
